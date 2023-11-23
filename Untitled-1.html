@@ -1,0 +1,108 @@
+<!-- 
+Murad Azraq - 100753245
+Course: Web Development - Fundamentals 
+File Name: Assignment Three
+Date: 10/18/2023 
+-->
+
+
+<!--
+Part One Description: In this section of the assignment, I utilized the following HTML code to craft a well-formatted biography.
+-->
+
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Formatting a biography</title>
+    <style>
+   
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1em;
+  margin: 0;
+}
+
+/* style the Level One heading to have a vibrant pink color by applying the CSS color keyword 'hotpink.'
+Additionally, provide the heading with a 10px dotted border-bottom, utilizing the CSS 
+color keyword 'purple' for this particular styling. */ 
+
+h1 {
+  color: hotpink;
+  font-size: 2em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border-bottom: 10px dotted purple;
+}
+
+/* Italicize the Level 2 heading */
+
+h2 {
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+/* Assign the 'ul' element utilized for displaying contact details a background-color of #eeeeee 
+and apply a 5px solid purple border. Employ padding to create some space between the content and the border. */
+
+ul {
+  background-color: #eeeeee;
+  border: 5px solid purple;
+  padding: 2em;
+}
+
+/* Creating a style guide for the job title class */
+
+.job-title {
+  color: #999999;
+  font-weight: bold;
+}
+
+
+a:link,
+a:visited {
+  color: #fb6542;
+}
+
+/* Change the color of the links to green when a user hovers their cursor over them. */
+
+a:hover {
+  text-decoration: none;
+  color: green;
+}
+</style>
+  </head>
+
+  <body>
+ 
+    <h1>Murad Azraq</h1>
+    <div class="job-title">Web Developer</div>
+    <p>
+      Far far away, behind the word mountains, far from the countries Vokalia
+      and Consonantia, there live the blind texts. Separated they live in
+      Bookmarksgrove right at the coast of the Semantics, a large language
+      ocean.
+    </p>
+
+    <p>
+      A small river named Duden flows by their place and supplies it with the
+      necessary regelialia. It is a paradisematic country, in which roasted
+      parts of sentences fly into your mouth.
+    </p>
+
+    <h2>Contact information</h2>
+    <ul>
+      <li>
+        Email:
+        <a href="Murad.azraq@dcmail.ca">Murad.azraq@dcmail.ca</a>
+      </li>
+      <li>
+        Web:
+        <a href="http://example.com">http://example.com</a>
+      </li>
+      <li>Tel: 416-897-1405</li>
+    </ul>
+  </body>
+</html>
